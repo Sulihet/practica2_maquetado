@@ -1,0 +1,53 @@
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    /* text-align: center; */
+}
+
+h2 {
+    color: hsl(224, 23%, 55%);
+    font-size: 16PX;
+    /* text-align: center; */
+}
+
+.Pay-order-img__container {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.Pay-order__container > div,a {
+    display: inline-block;
+}
+
+.Confirmation-payment-Cancel__Container {
+    display: block;
+}
+
+.Pay-order-plan__container {
+    margin: 20px;
+}
+
+.Pay-order-plan__container--dark {
+    color: hsl(223, 47%, 23%);
+}
+.Pay-order-plan__container--light {
+    color: hsl(224, 23%, 55%);
+}
+
+.Confirmation-payment__Container > button{
+    border-radius: 1dvh;
+    margin-top: 10px;
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    border-style: hidden;
+    padding: 10px;
+    width: 35vh;
+}
+
+.Confirmation-payment__Container:hover > button{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    border-style: hidden;
+    
+}
